@@ -11,79 +11,22 @@ Breakpoints:
   padding: 0;
 }
 
-/*
-Contenedor general
-*/
-.container {
+body {
   width: 100%;
-  max-height: 100vh;
-  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.kitten {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500vh;
+  width: 50%;
+  float: right;
+  margin-left: 
 }
 
 /*
 Posicionando al gato
 */
-[class *= "col-"] {
-  float: left;
-  padding: 10px;
-}
 
-/* 
-Fórmula para ancho de columnas:
-  número de columnas / 12 
-  */
-
-.col-1 {
-  width: 8.333333%;
-} 
-
-.col-2 {
-  width: 16.666667%;
-} 
-
-.col-3 {
-  width: 25%;
-} 
-
-.col-4 { 
-  width: 33.333333%;
-}
-
-.col-5 {
-  width: 41.666667%;
-}
-
-.col-6 {
-  width: 50%;
-} 
-
-.col-7 {
-  width: 58.333333%;
-}
-
-.col-8 {
-  width: 66.666667%;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.333333%;
-}
-
-.col-11 {
-  width: 91.666667%;
-}
-
-.col-12 {
-  width: 100%;
-}
-
-
-
-/*.img_cat {
-  margin-top: 390px;
-  margin-left: 310px;
-}  */
