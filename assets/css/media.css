@@ -6,7 +6,20 @@ Breakpoints:
 1024px - 1600px; Sunny Day
 */
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media (max-width: 850px) {
+  
+  #sunny-day {
+    height: 100%;
+    background-image: url('../img/sunny-day.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  #kitten-medium {
+    margin-top: 30%;
+  }
+
+/*@media (min-width: 320px) and (max-width: 375px) {
   body {
     background: url(../img/sunny-day.jpg);
   }
@@ -28,5 +41,5 @@ Breakpoints:
   body {
     background: url(../img/sunny-day.jpg);
   }
-}
+}  */
 
