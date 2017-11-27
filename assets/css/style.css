@@ -1,0 +1,13 @@
+/*
+Breakpoints:
+320px - 375px; Sunny Day
+376px - 667px; Dawn
+667px - 1024px; Night
+1024px - 1600px; Sunny Day
+*/
+
+
+.img_cat {
+  margin-top: 390px;
+  margin-left: 310px;
+}

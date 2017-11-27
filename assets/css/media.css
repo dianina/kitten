@@ -1,44 +1,32 @@
 /*
 Breakpoints:
-320px - 375px; GREEN
-376px - 667px; YELLOW
-667px - 1024px; RED
-1024px - 1600px; BLUE
+320px - 375px; Sunny Day
+376px - 667px; Dawn
+667px - 1024px; Night
+1024px - 1600px; Sunny Day
 */
 
 @media (min-width: 320px) and (max-width: 375px) {
   body {
-    background-color: green;
-  }
-  h1 {
-    font-size: 50px;
+    background: url(../img/sunny-day.jpg);
   }
 }
 
 @media (min-width: 376px) and (max-width: 667px) {
   body {
-    background-color: yellow;
-  }
-  h1 {
-    font-size: 60px;
+    background: url(../img/dawn.png);
   }
 }
 
 @media (min-width: 667px) and (max-width: 1024px) {
   body {
-    background-color: red;
-  }
-  h1 {
-    font-size: 100px;
+    background: url(../img/night.jpg);
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1600px) {
   body {
-    background-color: blue;
-  }
-  h1 {
-    font-size: 150px;
+    background: url(../img/sunny-day.jpg);
   }
 }
 
