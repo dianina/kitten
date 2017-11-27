@@ -1,9 +1,8 @@
 /*
 Breakpoints:
-320px - 375px; Sunny Day
-376px - 667px; Dawn
-667px - 1024px; Night
-1024px - 1600px; Sunny Day
+320px - 750px; Sunny Day
+750px - 950px; Dawn
+950px - ; Night
 */
 
 * {
@@ -12,19 +11,27 @@ Breakpoints:
   padding: 0;
 }
 
+/*
+Contenedor general
+*/
 .container {
   width: 100%;
+  max-height: 100vh;
   margin: 0 auto;
 }
 
+/*
+Posicionando al gato
+*/
 [class *= "col-"] {
   float: left;
-  min-width: 7px;
-  padding: 12px;
+  padding: 10px;
 }
 
-/* Fórmula para ancho de columnas:
-  número de columnas / 12 */
+/* 
+Fórmula para ancho de columnas:
+  número de columnas / 12 
+  */
 
 .col-1 {
   width: 8.333333%;

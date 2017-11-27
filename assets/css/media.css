@@ -1,17 +1,16 @@
 /*
 Breakpoints:
 320px - 750px; Sunny Day
-751px - 850px; Dawn
-851px - 1600px; Night
-
+750px - 950px; Dawn
+950px - ; Night
 */
 
 @media (min-width: 320px) and (max-width: 750px) {
   
   #sunny-day {
-    height: 100%;
     background-image: url('../img/sunny-day.jpg');
-    background-size: 100%;
+    background-size: cover;
+    height: 100vh;
     background-repeat: no-repeat;
   }
 
@@ -29,12 +28,12 @@ Breakpoints:
 }
 
 
-@media (min-width: 750px) and (max-width:850px) {
+@media (min-width: 750px) and (max-width:950px) {
 
   #dawn{
-    height: 100%;
     background-image: url('../img/dawn.png');
-    background-size: 100%;
+    background-size: cover;
+    height: 100vh;
     background-repeat: no-repeat;
   }
 
@@ -51,12 +50,12 @@ Breakpoints:
   }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 950px) {
 
   #night{
-    height: 100%;
     background-image: url('../img/night.jpg');
-    background-size: 100%;
+    background-size: cover;
+    height: 100vh;
     background-repeat: no-repeat;
   }
 
