@@ -13,20 +13,23 @@ Breakpoints:
 
 body {
   width: 100%;
+  height: auto;
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+/*
+Posicionando al gato
+*/
 
 .kitten {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 500vh;
   width: 50%;
-  float: right;
-  margin-left: 
+  margin-left: 30%;
+  margin-top: 165px;
 }
 
-/*
-Posicionando al gato
-*/
+
 
